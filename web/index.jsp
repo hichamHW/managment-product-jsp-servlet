@@ -179,7 +179,6 @@
 
                                               <th><%out.print(p.getId_p());%></th>
 
-                                              <th><%out.print(p.getNom_p());%></th>
                                               <th><%out.print(p.getQuantite());%></th>
                                               <th><%out.print(p.getPrix_p());%></th>
                                               <th><%out.print(p.getId_c());%></th>
@@ -193,6 +192,7 @@
                                                   <div class="modal fade" id="model_update<%=p.getId_p()%>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                                       <div class="modal-dialog modal-dialog-centered" role="document">
                                                           <div class="modal-content">
+                                              <th><%out.print(p.getNom_p());%></th>
                                                               <div class="modal-header">
                                                                   <h5 class="modal-title" id="update_title">Update product</h5>
 
